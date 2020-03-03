@@ -1,0 +1,162 @@
+$textcolor: #595959;
+
+
+
+
+
+@font-face {
+	
+	font-family: gotham;
+	src: url(font/gotham.ttf);
+   }
+
+   @media screen and (max-width: 600px) {
+	#table_menu {
+	  display: none;
+	  
+}
+
+	header {
+	font-size: 35px;
+}
+.col {
+
+	display: none;
+
+}
+
+}
+
+
+header {
+
+	text-align: center;
+	font-family: gotham;
+	font-size: 60px;
+
+}
+
+
+
+
+
+p {
+
+	color: $textcolor;
+}
+a:link, a:visited, a:active {
+	color: black;
+	
+
+  }
+
+  a:hover {
+	text-decoration: none;
+	color: $textcolor;
+
+  }
+
+  ul {
+	
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+	color: $textcolor;
+
+  }
+
+
+
+
+
+
+ 
+
+	#alert {
+		margin-top: 20px;
+		text-align: center;
+	
+	  } 
+
+
+	
+	%font_article{
+
+		font-family: Georgia, 'Times New Roman', Times, serif;
+
+	}
+
+	.col{
+
+	
+
+	border-left: solid 1px #b3b3b3;
+	margin-top: 20px;
+
+	}
+
+	.row {
+
+	@extend %font_article;
+	margin-bottom: 15px;
+	
+}
+	
+
+	.article {
+
+		@extend %font_article;
+
+		text-align: justify;
+		margin-top: 40px;
+	
+		h2 {
+		
+		text-align: center;
+		
+		
+		}
+		
+		}
+
+		#table_menu {
+
+			@extend %font_article;
+	
+			margin-left:auto; 
+			margin-right:auto;
+		
+			border-top: solid;
+			border-bottom: solid;
+			border-collapse: separate;
+			border-spacing: 20px 10px;
+			
+		  }
+
+		  footer {
+			@extend %font_article;
+			border-top:solid 2px black;
+			  }
+			
+			  #footer-h6{
+			
+				font-family: gotham;
+				font-size: 20px;
+			
+			  }
+			  
+
+			  .video-responsive { 
+				overflow:hidden; 
+				padding-bottom:56.25%; 
+				position:relative; 
+				height:0;
+				}
+				
+				.video-responsive iframe {
+				left:0; 
+				top:0; 
+				height:100%;
+				width:100%;
+				position:absolute;
+				}
